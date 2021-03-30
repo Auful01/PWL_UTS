@@ -1,6 +1,6 @@
 <?php
 
-
+use App\Http\Controllers\BarangController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\PostsController;
 use Illuminate\Support\Facades\Route;
@@ -18,6 +18,5 @@ use Illuminate\Http\Request;
 */
 
 
-
-Route::resource('mahasiswa', MahasiswaController::class);
+Route::resource('barangs',BarangController::class);
 Route::get('search',[PostsController::class,'search']);
