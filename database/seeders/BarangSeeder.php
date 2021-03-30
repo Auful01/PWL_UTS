@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+
 class BarangSeeder extends Seeder
 {
     /**
@@ -13,8 +14,7 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('barangs')->insert([
-            [
+        DB::table('barangs')->insert([[
                 'kode_barang' => 'BR001',
                 'nama_barang' => 'Mie Sedap',
                 'kategori_barang' => 'Makanan',
@@ -86,8 +86,6 @@ class BarangSeeder extends Seeder
                 'kategori_barang' => 'Buah',
                 'harga' => 18000,
                 'qty' => 30
-            ]
-        ]
-        );
+            ]]);
     }
 }
