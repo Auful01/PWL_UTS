@@ -9,10 +9,7 @@
         <div class="float-right my-2">
             <a class="btn btn-success" href="{{ route('barangs.index') }}"> Kembali</a>
         </div>
-        {{-- <div class="float-left my-1">
-            <input type="text">
-            <button class="btn btn-primary" type="submit">Search</button>
-        </div> --}}
+
     </div>
 </div>
 
